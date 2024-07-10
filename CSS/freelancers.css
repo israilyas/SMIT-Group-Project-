@@ -1,0 +1,105 @@
+
+.profile {
+    padding: 15px;
+
+}
+
+.card-hover:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 15px;
+    border-radius: 10px;
+    z-index: 999;
+}
+.card-hover:hover  img{
+    border-radius: 10px;
+}
+
+.card-hover {
+    transition: all 0.5s ease-in;
+}
+
+.image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.freelancer-profile-buttons>button {
+    width: 150px;
+}
+
+.freelancer-profile-buttons>a>button {
+    /* display: inline-block; */
+    width: 150px;
+}
+
+.pagination-width {
+    width: 30%;
+}
+
+/* ======================
+    For Responsive
+====================== */
+
+@media (max-width:992px) and  (min-width:769px){
+    
+}
+
+/* Freelancers Profiles  */
+@media (max-width:769px) {
+    body {
+        overflow: visible;
+    }
+
+    .image {
+        gap: 20px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content>.details {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .freelancer-profile-buttons {
+        flex-direction: row;
+        justify-content: space-around;
+        /* margin-bottom: 180px; */
+        z-index: 99;
+    }
+
+    .pagination-width {
+        width: 50%;
+    }
+
+}
+
+/* For mobiles  */
+@media (max-width:576px) {
+    .freelancer-profile-buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .freelancer-profile-buttons>a>button {
+        width: 90%;
+
+    }
+
+    .pagination-width {
+        width: 60%;
+
+    }
+}
+
+/* Freelancers Profiles ends */

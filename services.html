@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - TaskNest</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="freelancer-profile.css">
+    <style>
+        .card-image {
+            width: 23%px;
+        }
+
+        .card {
+            width: 23%;
+        }
+
+        .card-profile img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            .profile-image img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .profile-details {
+                margin-top: 10px;
+            }
+
+            .card-image {
+                width: 30%px;
+            }
+
+            .card {
+                width: 30%;
+            }
+
+        }
+
+        @media (min-width: 992px) {
+            .profile-image img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+
+        @media (max-width:768px) and (min-width:576px) {
+            .card {
+                width: 45%;
+                margin: auto;
+            }
+        }
+
+        @media (max-width:576px) {
+            .card {
+                width: 90%;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Portfolio or services Section  -->
+    <div class="portfolio-section mt-5">
+
+        <div class="container">
+            <p class=" fw-bold fs-3">Find the best Services you need</p>
+
+            <!-- Services Cards -->
+            <div class="text-dark d-flex flex-wrap gx-2 row">
+
+                <!--card starts 1-->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/gig1-.png" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/gig1-freelancer.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Alex Smith</span>
+                                        <span class="text-success" style="font-weight: 500;">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;">Transform Your Brand with Custom Website Development</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                                    style="color: yellow;"></ion-icon><span class="ms-2 text-success"
+                                    style="font-size: 14px;">4.9</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 1000</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+                <!-- card starts 2 -->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/gig2.png" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/gig2-profile.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Sarah Lee</span>
+                                        <span class="text-success fw-normal">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;"> Empower Your Business with Full-Scale E-commerce Development.</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                             class="text-warning"></ion-icon><span class="ms-2 text-warning"
+                                    style="font-size: 14px;">5.0</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 2000</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+                <!-- card starts  -->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/profile3.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/profile2.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Sarah Johnson</span>
+                                        <span class="text-success fw-normal">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title
+                            and make up the bulk of the card's content.</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                                    style="color: green;"></ion-icon><span class="ms-2 text-success"
+                                    style="font-size: 14px;">5</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 80</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+                <!-- card starts  -->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/profile3.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/profile2.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Sarah Johnson</span>
+                                        <span class="text-success fw-normal">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title
+                            and make up the bulk of the card's content.</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                                    style="color: green;"></ion-icon><span class="ms-2 text-success"
+                                    style="font-size: 14px;">5</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 80</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+                <!-- card starts  -->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/profile3.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/profile2.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Sarah Johnson</span>
+                                        <span class="text-success fw-normal">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title
+                            and make up the bulk of the card's content.</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                                    style="color: green;"></ion-icon><span class="ms-2 text-success"
+                                    style="font-size: 14px;">5</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 80</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+                <!-- card starts  -->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/profile3.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/profile2.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Sarah Johnson</span>
+                                        <span class="text-success fw-normal">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title
+                            and make up the bulk of the card's content.</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                                    style="color: green;"></ion-icon><span class="ms-2 text-success"
+                                    style="font-size: 14px;">5</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 80</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+                <!-- card starts  -->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/profile3.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/profile2.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Sarah Johnson</span>
+                                        <span class="text-success fw-normal">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title
+                            and make up the bulk of the card's content.</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                                    style="color: green;"></ion-icon><span class="ms-2 text-success"
+                                    style="font-size: 14px;">5</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 80</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+                <!-- card starts  -->
+                <div class="card d-flex flex-wrap m-2 col-md-4 col-12 card-hover">
+
+                    <div class="card-image">
+                        <img src="asset/profile3.jpg" class="img-fluid rounded" alt="...">
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="card-profile">
+                            <div class="d-flex fw-bold justify-content-between"
+                                style="font-size: 12px; font-weight: 400; ">
+                                <div class="d-flex">
+                                    <img src="asset/profile2.jpg" alt="" class="rounded-circle img-thumbnail">
+                                    <p class="d-flex flex-column ms-2">
+                                        <span>Sarah Johnson</span>
+                                        <span class="text-success fw-normal">Top Rated Seller</span>
+                                    </p>
+                                </div>
+                                <ion-icon name="heart-outline" style="width: 20px; height: 20px;"></ion-icon>
+                            </div>
+                        </div> <!-- card-profile ends-->
+
+                        <!-- card details para -->
+                        <p class="card-text" style="font-size: 14px;">Some quick example text to build on the card title
+                            and make up the bulk of the card's content.</p>
+
+                        <div class="d-flex justify-content-between" style="justify-content: space-between;">
+                            <p class="d-flex align-items-center"><ion-icon name="star"
+                                    style="color: green;"></ion-icon><span class="ms-2 text-success"
+                                    style="font-size: 14px;">5</span></p>
+                            <p><span class="ms-2" style="font-size: 14px;">Startind at</span>
+                                <span class="ms-2 fw-bold" style="font-size: 18px;">$ 80</span>
+                            </p>
+                        </div>
+
+                    </div> <!-- card-body ends-->
+                </div><!-- card ends -->
+
+
+            </div> <!-- Services Cards section ends-->
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Ionicons JS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
